@@ -1,0 +1,1 @@
+print("python is a programming language") #Python is a high-level, general-purpose programming language used to write instructions for computers.
