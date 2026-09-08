@@ -97,11 +97,11 @@ else:
 
 #Q14
 marks=int(input("enter your marks: "))
-if 90<=marks<100:
+if 90 <= marks <= 100:
     print("Excellent")
-elif 90<marks>=75:
+elif 75 <= marks < 90:
     print("Good")
-elif 75<marks>=60:
+elif 60 <= marks < 75:
     print("Pass")
 else:
     print("Fail")
