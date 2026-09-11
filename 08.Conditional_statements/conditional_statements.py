@@ -17,11 +17,15 @@ if num>0:
 marks=int(input("enter your marks: "))
 if marks>=40:
     print("Pass")
+else:
+    print("fail")
 
 #Q5
 num=int(input("Enter a number: "))
 if num==0:
     print("Zero")
+else:
+    print("number is not zero")
 
 #Q6
 num=int(input("enter your number: "))
@@ -75,7 +79,7 @@ else:
 num=int(input("enter your number: "))
 if num>0:
     print("Positive")
-if num<0:
+elif num<0:
     print("Negative")
 else:
     print("Zero")
@@ -84,13 +88,13 @@ else:
 num=int(input("enter your number: "))
 if num==1:
     print("Monday")
-if num==2:
+elif num==2:
     print("Tuesday")
-if num==3:
+elif num==3:
     print("Wednesday")
-if num==4:
+elif num==4:
     print("Thursday")
-if num==5:
+elif num==5:
     print("Friday")
 else:
     print("Other")
