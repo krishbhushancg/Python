@@ -280,7 +280,7 @@ print(a%b%c)            #0.5
 print(a**b+c)           #2.501
 print((a+b)+c-b*a)      #39.5
 print((b-a)+a*3+8//2)   #21
-print(a+b**6+c//3+20)   #759..0
+print(a+b**6+c//3+20)   #759
 
 
 

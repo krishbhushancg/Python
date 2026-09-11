@@ -72,6 +72,7 @@ f=None          #nonetype
 print(type(f))
 
 
+
 g="None"        #string
 print(type(g))
 print("here we have variables f , g  but the value inside f is a boolean type , whereas in g the value is in double quotes so it is considered as a string value ")
