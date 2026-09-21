@@ -1,16 +1,16 @@
-# #Q1
-# num1=int(input("enter first num: "))
-# num2=int(input("enter second num: "))
+#Q1
+num1=int(input("enter first num: "))
+num2=int(input("enter second num: "))
 
-# sum=(num1+num2)
-# print(f"sum:{sum}")
+sum=(num1+num2)
+print(f"sum:{sum}")
 
-# #Q2
-# num=int(input("enter num: "))
-# if num%2==0:
-#     print("number is even")
-# else:
-#     print("number is odd")
+#Q2
+num=int(input("enter num: "))
+if num%2==0:
+    print("number is even")
+else:
+    print("number is odd")
 
 #Q3
 a=int(input("enter first number: "))
@@ -28,7 +28,10 @@ else:
 age=int(input("enter age: "))
 if age>=18:
     print("eligible to vote")
+else:
+    print("not eligible to vote")
 
+    
 #Q5
 price=int(input("enter the price: "))
 dis_price=(price-(20/100*price))
@@ -40,3 +43,15 @@ else:
     print("no discount")
 
 #Q6
+total=0
+for i in range(3):
+    marks=int(input("enter your marks: "))
+    total+=marks
+print(total)
+
+average=total/3
+print(average)
+if average>=40:
+    print("pass")
+else:
+    print("fail")
