@@ -1,7 +1,12 @@
-print("A = absent")
-print("P = Present")
-p=0
-a=0
+str=input("enter word:").strip()
+str1=""
 
-for i in range(7):
-    att=input("enter P or A: ")
+for i in range(len(str)-1,-1,-1):
+    str1+=str[i]
+
+if str==str1:
+    print("mirror compatible")
+else:
+    print("not mirror compatible")
+
+

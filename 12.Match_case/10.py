@@ -1,0 +1,18 @@
+print('''upi
+card
+cash
+wallet''')
+payment=input("enter payment method: ").lower().strip()
+
+match payment:
+    case "upi":
+        print("UPI Payment Selected")
+    case "card":
+        print("card Payment Selected")
+    case "cash":
+        print("cash Payment Selected")
+    case "wallet":
+       print("wallet Payment Selected")
+    case _:
+        print("Invalid")
+
