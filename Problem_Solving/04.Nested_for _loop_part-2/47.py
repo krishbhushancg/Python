@@ -5,3 +5,10 @@
 # Input: 4
 
 # Expected Output: i=0 produces no inner output; later rows show 0, then 0 1, then 0 1 2.
+
+n=int(input("enter number: "))
+
+for i in range(0,n):
+    for j in range(i):
+        print(j,end=" ")
+    print()

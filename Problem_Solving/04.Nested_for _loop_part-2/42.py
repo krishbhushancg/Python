@@ -7,3 +7,19 @@
 # Expected Output:
 # Longest = programming
 # Shortest = I
+
+n=input("enter sentence: ").split()
+
+smallest=(n[0])
+longest=(n[0])
+
+for i in n:
+    for j in n:
+        if len(j)>len(longest):
+            longest=j
+        if len(j)<len(smallest):
+            smallest=j
+
+print(f"longest: {longest}  smallest: {smallest}")
+
+

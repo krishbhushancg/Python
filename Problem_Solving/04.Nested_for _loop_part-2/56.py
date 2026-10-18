@@ -9,3 +9,11 @@
 # 3 4
 # 4 3
 # 5 2
+
+n=int(input("enter number: "))
+limit=int(input("enter target: "))
+
+for i in range(1,n+1):
+    for j in range(1,n+1):
+        if i+j==limit:
+            print(i,j)
