@@ -8,7 +8,8 @@
 
 n=int(input("enter number of students: "))
 m=int(input("enter number of subjects: "))
-
+M=[]
+A=[]
 for i in range(n):
     print(f"marks for student {i+1}")
     total=0
@@ -17,5 +18,10 @@ for i in range(n):
         total+=b
         average=total/m
     print()
-    print(f"{total,average}",end=" ")
+    M.append(total)
+    A.append(average)
     print()
+for j in M:
+    print(j,end=" ")
+for z in A:
+    print(z,end=" ")

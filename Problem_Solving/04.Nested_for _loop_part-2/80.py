@@ -5,3 +5,4 @@
 # Input: BANANA
 
 # Expected Output: A
+

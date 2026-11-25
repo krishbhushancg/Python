@@ -8,3 +8,9 @@
 # I *
 # love ****
 # Python ******
+
+
+m=input("enter sentence: ").split()
+
+for i in range(len(m)):
+    print(m[i],(len(m[i])*"*"))

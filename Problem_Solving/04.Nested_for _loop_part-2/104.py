@@ -9,3 +9,10 @@
 # I love Python
 # I love
 # I
+
+n=input("enter sentence: ").upper().split()
+
+for i in range(len(n),0,-1):
+    for j in range(i):
+        print(n[j],end=" ")
+    print()

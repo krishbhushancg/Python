@@ -5,3 +5,5 @@
 # Input: ABCDE
 
 # Expected Output: Progressive centered character rows.
+
+n=input("enter text: ")

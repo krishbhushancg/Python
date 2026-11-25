@@ -8,12 +8,13 @@
 
 
 n=input("enter text:")
-
+repeat=""
 for i in n:
     for j in n:
-        if i==j:
+        if i==j and j not in repeat:
+            repeat+=j
             print(f"{i}/{j} is same",end=" ")
-        else:
+        elif i!=j:
             print(f"{i}/{j} is different",end=" ")
     print()
 
