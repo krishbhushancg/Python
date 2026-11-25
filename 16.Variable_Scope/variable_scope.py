@@ -22,6 +22,7 @@ if True:
 
 print(name)
 
+
 # Q4
 for i in range(5):
     print(i)
@@ -29,8 +30,8 @@ for i in range(5):
 print("Outside loop:", i)
 
 # Q5
-# Scope: Where a variable can be accessed in a program.
-# Lifetime: How long a variable exists in memory.
+# Scope = Where a variable can be accessed in a program.
+# Lifetime = How long a variable exists in memory.
 
 
 
@@ -57,19 +58,19 @@ print(clicks)
 
 
 # Q8
-name = "Asha"
+# name = "Asha"
 
-def show():
-    print(name)
-    name = "Ravi"
+# def show():
+#     print(name)
+#     name = "Ravi"
 
-show()
+# show()
+# it will show unbound local error
 
 
 # Q9
 def outer():
     name = "Krish"
-
     def inner():
         print(name)
 
@@ -125,15 +126,15 @@ print(x)
 
 
 # Q13
-for i in range(3):
-    print(i)
+# for i in range(3):
+#     print(i)
 
-print(i)  
+# print(i)  
 
-i = 100
-numbers = [i for i in range(3)]
+# i = 100
+# numbers = [i for i in range(3)]
 
-print(i) 
+# print(i) 
 
 
 # Q14
