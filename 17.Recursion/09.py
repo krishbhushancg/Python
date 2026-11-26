@@ -1,3 +1,5 @@
+# Write digit_sum(n) that returns the sum of the digits of a non-negative integer.
+
 a=int(input("enter number: "))
 def digit_sum(n):
     if n==0:

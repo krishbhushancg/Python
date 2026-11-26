@@ -1,3 +1,6 @@
+# Write count_digits(n) that returns the number of digits in a non-negative integer.
+
+
 a=int(input("enter number: "))
 count=0
 def count_digits(n):

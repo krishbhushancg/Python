@@ -1,3 +1,5 @@
+# Write factorial(n) that returns n!.
+
 a=int(input("enter number: "))
 def factorial(n):
     if n==0:

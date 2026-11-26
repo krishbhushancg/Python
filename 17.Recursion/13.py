@@ -1,3 +1,6 @@
+# Write fibonacci(n) that returns the nth Fibonacci number using these definitions:
+
+
 a=int(input("enter number: "))
 def fibonacci(n):
     if n<=1:

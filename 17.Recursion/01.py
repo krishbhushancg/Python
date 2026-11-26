@@ -1,3 +1,4 @@
+
 def show(n):
     if n == 0:
         print("Stop")

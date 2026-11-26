@@ -1,3 +1,4 @@
+
 def total(n):
     if n == 0:
         return 0

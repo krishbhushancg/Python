@@ -1,3 +1,6 @@
+# Write power(base, exponent) that returns base raised to exponent.
+
+
 a=int(input("enter base: "))
 b=int(input("enter power: "))
 def power(a, n):
