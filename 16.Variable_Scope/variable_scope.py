@@ -8,7 +8,7 @@ show()
 
 
 # Q2
-school = "Delhi Public School"
+school = "New Era High School"
 
 def show():
     print(school)
@@ -28,6 +28,8 @@ for i in range(5):
     print(i)
 
 print("Outside loop:", i)
+
+
 
 # Q5
 # Scope = Where a variable can be accessed in a program.
